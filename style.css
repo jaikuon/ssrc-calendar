@@ -1,0 +1,16 @@
+body {
+    font-size: 15pt;
+    text-align: center;
+    background: linear-gradient(rgba(168,230,207,0.5), rgba(127,179,213,0.5));
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    animation: civilPulse 6s infinite;
+}
+@keyframes civilPulse {
+    0% {background-color: #a8e6cf;}
+    50% {background-color: #7fb3d5;}
+    100% {background-color: #a8e6cf; }}
+
+
+#date {font-size: 30pt; }
